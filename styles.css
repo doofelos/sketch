@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: content-box;
+}
+
+.div {
+    display: flex;
+    flex-shrink: 1;
+}
+
+.square {
+    display: flex;
+    flex-direction: row;
+    min-width: 1vw;
+    background-color: green;
+    border: 1px solid white;
+    box-sizing: content-box;
+    aspect-ratio: 1;
+}
+
+.place {
+    text-align: -webkit-center;
+}
